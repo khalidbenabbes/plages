@@ -1,0 +1,110 @@
+testformuleBundle_homepage:
+    pattern:  /hello
+    defaults: { _controller: testformuleBundle:Default:index }
+    
+testformuleBundle_homepage:
+    pattern:  /test
+    defaults: { _controller: testformuleBundle:Default:index }
+    
+testformuleBundle_plage:
+    pattern:  /plages
+    defaults: { _controller: testformuleBundle:Default:listPlages }
+  
+testformuleBundle_inserer:
+    pattern:  /inserer
+    defaults: { _controller: testformuleBundle:Page:ajouter }
+    
+testformuleBundle_voir:
+    pattern:  /voir/{id}
+    defaults: { _controller: testformuleBundle:Page:voir }
+    requirements:
+        _method: GET|POST
+        
+testformuleBundle_voir:
+    pattern:  /commentaire
+    defaults: { _controller: testformuleBundle:Page:findbyauteur }
+    requirements:
+        _method: GET|POST
+
+testformuleBundleprod_show:
+    pattern:  /show/{id}
+    defaults: { _controller: testformuleBundle:Produits:show }
+    requirements:
+        _method: GET|POST
+        
+prod:
+    pattern:  /create
+    defaults: { _controller: testformuleBundle:Produits:create }
+    requirements:
+        _method: GET|POST
+        
+prod_create:
+    pattern:  /create
+    defaults: { _controller: testformuleBundle:Produits:create }
+    requirements:
+        _method: GET|POST
+        
+testformuleBundleprod_edit:
+    pattern:  /edit/{id}
+    defaults: { _controller: testformuleBundle:Produits:edit }
+    requirements:
+        _method: GET|POST
+        
+testformuleBundleprod_update:
+    pattern:  /update/{id}
+    defaults: { _controller: testformuleBundle:Produits:update }
+    requirements:
+        _method: GET|POST
+        
+testformuleBundleprod_delete:
+    pattern:  /delete/{id}
+    defaults: { _controller: testformuleBundle:Produits:delete }
+    requirements:
+        _method: GET|POST
+        
+categorie_produit:
+    pattern:  /categorieProduit
+    defaults: { _controller: testformuleBundle:Produit:firstCategorie }   
+    
+secondcategorie_produit:
+    pattern:  /secondcategorieProduit/{id}
+    defaults: { _controller: testformuleBundle:Produit:secondCategorie } 
+
+user_cat:
+    pattern:  /user
+    defaults: { _controller: testformuleBundle:Produit:user}
+
+categorie_p:
+    pattern:  /index
+    defaults: { _controller: testformuleBundle:Produit:index } 
+    
+categorie_new:
+    pattern:  /new
+    defaults: { _controller: testformuleBundle:Produit:new } 
+    
+categorie_cat:
+    pattern:  /cat
+    defaults: { _controller: testformuleBundle:Produit:cat } 
+    
+categorie_form:
+    pattern:  /form
+    defaults: { _controller: testformuleBundle:Produit:form }
+    
+IsMektebPostBundle_ajaxrq:
+    pattern:  /ajaxrq
+    defaults: { _controller: testformuleBundle:Produit:ajaxrq}
+    
+
+prix_pro:
+    pattern:  /prix/{id}/{reference}
+    defaults: { _controller: testformuleBundle:Produit:prix}
+
+ajax_test:
+    pattern:  /ajaxtest
+    defaults: { _controller: testformuleBundle:Produit:list}
+    requirements:
+        _method: POST|GET
+
+
+
+

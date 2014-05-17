@@ -1,0 +1,10 @@
+[2013-05-31 15:54:39,072][INFO ][node                     ] [Omen] {0.90.0}[6964]: initializing ...
+[2013-05-31 15:54:39,129][INFO ][plugins                  ] [Omen] loaded [], sites []
+[2013-05-31 15:54:55,951][INFO ][node                     ] [Omen] {0.90.0}[6964]: initialized
+[2013-05-31 15:54:55,952][INFO ][node                     ] [Omen] {0.90.0}[6964]: starting ...
+[2013-05-31 15:54:56,860][INFO ][transport                ] [Omen] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.3:9300]}
+[2013-05-31 15:55:02,249][INFO ][cluster.service          ] [Omen] new_master [Omen][ZmkM_UbQSCaoQL1IqCnVuw][inet[/192.168.1.3:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-31 15:55:02,769][INFO ][discovery                ] [Omen] elasticsearch/ZmkM_UbQSCaoQL1IqCnVuw
+[2013-05-31 15:55:05,455][INFO ][http                     ] [Omen] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.3:9200]}
+[2013-05-31 15:55:05,457][INFO ][node                     ] [Omen] {0.90.0}[6964]: started
+[2013-05-31 15:55:09,477][INFO ][gateway                  ] [Omen] recovered [6] indices into cluster_state

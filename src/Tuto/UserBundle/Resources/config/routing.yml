@@ -1,0 +1,3 @@
+TutoUserBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: TutoUserBundle:Default:index }

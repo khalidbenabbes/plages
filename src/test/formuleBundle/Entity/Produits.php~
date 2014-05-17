@@ -1,0 +1,119 @@
+<?php
+
+namespace test\formuleBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * test\formuleBundle\Entity\Produits
+ *
+ * @ORM\Table()
+ * @ORM\Entity(repositoryClass="test\formuleBundle\Entity\ProduitsRepository")
+ */
+class Produits
+{
+    
+    /**
+     * @ORM\ManyToOne(targetEntity="Categorie", inversedBy="produits")
+     * @ORM\JoinColumn(name="categorie_id", referencedColumnName="id")
+     */
+    protected $categorie;
+    
+    /**
+     * @var integer $id
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string $name
+     *
+     * @ORM\Column(name="name", type="string", length=255)
+     */
+    private $name;
+
+    /**
+     * @var integer $price
+     *
+     * @ORM\Column(name="price", type="integer")
+     */
+    private $price;
+
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string 
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set price
+     *
+     * @param integer $price
+     */
+    public function setPrice($price)
+    {
+        $this->price = $price;
+    }
+
+    /**
+     * Get price
+     *
+     * @return integer 
+     */
+    public function getPrice()
+    {
+        return $this->price;
+    }
+
+
+
+    
+
+    /**
+     * Set categorie
+     *
+     * @param test\formuleBundle\Entity\Categorie $categorie
+     */
+    public function setCategorie(\test\formuleBundle\Entity\Categorie $categorie)
+    {
+        $this->categorie = $categorie;
+    }
+
+    /**
+     * Get categorie
+     *
+     * @return test\formuleBundle\Entity\Categorie 
+     */
+    public function getCategorie()
+    {
+        return $this->categorie;
+    }
+}

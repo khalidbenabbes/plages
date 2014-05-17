@@ -1,0 +1,7 @@
+parameters:
+#    testformule.example.class: test\formuleBundle\Example
+
+services:
+#    testformule.example:
+#        class: %testformule.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

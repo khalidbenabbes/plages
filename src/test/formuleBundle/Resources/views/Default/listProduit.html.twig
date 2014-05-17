@@ -1,0 +1,20 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <table border="1" width="80%">
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Prix</th>
+            <th>Categorie</th>
+        </tr>
+        {% for p in prods  %}
+            <tr>
+                <td>{{ p.id }}</td>
+                <td>{{ p.nomProduit }}</td>
+                <td>{{ p.prix }}</td>
+                <td>{{ p.categorie.nomCategorie }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}

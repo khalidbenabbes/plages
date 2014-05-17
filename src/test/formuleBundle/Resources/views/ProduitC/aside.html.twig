@@ -1,0 +1,28 @@
+
+{% for categotp in categorietop %}
+
+<a href="" class="toptitre"><strong> {{ categotp.nom }}</strong> </a>
+{% endfor %}
+{#
+{% for i in 1..10 %}
+{{i}}<br/>
+
+{% endfor %}
+{% for i in 'a'..'z' %}
+{{loop.length}}<br/>
+{% else %}
+not item found 
+{% endfor %}
+
+#}
+
+{% for categorie in categories %}
+
+<h3  class="ligne_aside"><a href="{{ path('secondcategorie_produit',{'id': categorie.id })}}">{{ categorie.nom }} </a></h2><br/>
+
+{% endfor %}
+
+<br/>
+
+
+

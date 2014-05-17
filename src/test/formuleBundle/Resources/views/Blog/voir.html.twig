@@ -1,0 +1,10 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+
+<a href="{{ path('testformuleBundle_inserer') }}">inserer</a>
+{% set foo = [1,2,3,4] %}
+{% for var in foo %}
+<br/><a href="{{ path('testformuleBundle_voir',{'id': var}) }}">voir[{{ var }}]</a>
+{% endfor %}
+{% endblock %}

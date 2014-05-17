@@ -1,0 +1,15 @@
+{% extends "testformuleBundle::layout.html.twig" %}
+
+{% block content %}
+<h3>Top des acteurs les plus jeunes</h3>
+<div class="aside">
+ {# render "testformuleBundle:Produit:firstCategorie" #}
+ {% include "testformuleBundle:ProduitC:aside.html.twig" %}
+</div>
+<div class="article">
+   {# render "testformuleBundle:ProduitC:articleCategorie" #}
+   {% include "testformuleBundle:ProduitC:articlePr.html.twig" %}
+
+</div>
+
+{% endblock %}

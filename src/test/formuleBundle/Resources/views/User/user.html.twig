@@ -1,0 +1,20 @@
+<form action="{{ path('user_cat') }}"  method="POST" id="contact_form" {{ form_enctype(form) }}  >
+
+        {{ form_errors(form) }}
+        {{ form_label(form.nom) }}
+        {{ form_widget(form.nom, { 'attr': {'class': 'form_put'} }) }}<br>
+        {{ form_label(form.prenom) }}
+        {{ form_widget(form.prenom, { 'attr': {'class': 'form_put'} }) }}<br>
+        {{ form_label(form.login) }}
+        {{ form_widget(form.login, { 'attr': {'class': 'form_put'} }) }}<br>
+        {{ form_label(form.password) }}
+        {{ form_widget(form.password, { 'attr': {'class': 'form_put'} }) }}<br>
+        {{ form_label(form.url) }}
+        {{ form_widget(form.url, { 'attr': {'class': 'form_put'} }) }}<br>
+        {{ form_label(form.email) }}
+        {{ form_widget(form.email, { 'attr': {'class': 'form_put'} }) }}
+        {{ form_widget(form._token) }}
+<p>   
+<input type="submit" value="Valider" class="symfony-button-grey" />
+</p>
+</form>

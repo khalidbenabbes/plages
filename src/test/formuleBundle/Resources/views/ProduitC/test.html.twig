@@ -1,0 +1,27 @@
+<div class="produitp">
+
+<h1>{{ principale.reference}} f</h1><br>
+<img src="{{ principale.image }}" width="59px" height="36px" title="{{ principale.reference }}" alt="" /><br>
+<span> {{ principale.prix }}</span>
+<span> {{ principale.login }}</span>
+
+</div>
+
+
+<div class = "loading">
+{% for produit in  produits %}
+<table>
+<tr>
+
+
+<td>  
+<div> <img src="{{ produit.image }}" width="59px" height="36px" title="{{ produit.reference }}" alt="" /> </div>
+<div> <span> {{ produit.prix }}Dhs </span>  </div> 
+<div> <span> {{ produit.reference }} </span>  </div> 
+<div> <span> {{ produit.marchand.prenom }} </span>  </div> 
+<div class="prix"><span><a href="{{ path('prix_pro',{'reference': produit.reference,'id': produit.id}) }}">Voir</a></span></div>
+</td>
+</tr>
+</table>
+{% endfor %}
+</div>

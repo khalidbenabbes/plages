@@ -1,0 +1,73 @@
+
+.aside{
+    
+    width: 200px;
+    border: 1px solid #006666;
+
+}
+
+
+.ligne_aside{
+    display: block;
+    width:300px;
+    height:16px;
+    font-size:12px;
+}
+
+a:hover{
+    background:#006666;
+}
+
+.top_catgorie{
+    background:#FFFF00;
+    width: 200px;
+}
+
+.aside,.article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.article{
+border: 1px solid #006666;
+width: 70%;
+}
+
+.toptitre:hover{
+    text-decoration: none;
+    background: #DDD;
+}
+
+.toptitre{
+    display: block;
+    width: 200px;
+    height: 20px;
+    color: #0073ea;
+    text-decoration: none;
+    background: #DDD;
+}
+
+#tags{
+    
+    color:blue;
+    background:#99FFFF;
+}
+
+.widget{
+  color:#999966;  
+}
+
+.prod,.prix{
+    display:inline-block;
+}
+.prix{
+    float:right; 
+    margin-left:30%;
+}
+
+
+.titre_produit{
+    font-weight:bold;
+    font-size:13px;
+}
+

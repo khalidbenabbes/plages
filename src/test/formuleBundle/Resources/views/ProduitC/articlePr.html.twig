@@ -1,0 +1,57 @@
+<div class = "loading">
+{% for produit in  produits %}
+<table>
+<tr>
+
+<td>  
+<div> <img src="{{ produit.image }}" width="59px" height="36px" title="{{ produit.reference }}" alt="" /> </div>
+<div> <span> {{ produit.prix }}</span>Dhs   </div>
+<div class="prix"><span> <a id="testajax" class="{{ produit.id }}" title="{{ produit.reference}}" href="{{ path('ajax_test')}}" >Comparer les prix</a></span></div>
+
+<iframe src="https://www.facebook.com/plugins/like.php?href={{ produit.image }}"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px"></iframe>
+</td>
+</tr>
+</table>
+{% endfor %}
+</div>
+
+<p>Date: <input  id="datepicker" /></p>
+
+<div class="widget">
+<label for="tags">Tags: </label>
+<input id="tags" />
+<div id="progressbar"></div>
+</div>
+<div class="test">
+ss
+ss
+ss
+</div>
+<input type="button" value="Clic !" id="valider"/> 
+
+<script>
+ $(function() {
+$("#testajax").click(function(){ 
+    var motcle = $("span").text();
+   var id = $("#testajax").attr('class');
+   var ref = $("#testajax").attr('title');
+   var DATA = 'reference=' + ref ;
+    $.ajax({
+        type: "POST",
+        url: "{{ path('ajax_test')}}",
+        data: DATA,
+        cache: false,
+        success: function(data){
+           $('.loading').html(data);
+           //$(".loading").hide();
+        }
+    }); 
+  
+ return false;    
+
+});
+ });
+</script>
+

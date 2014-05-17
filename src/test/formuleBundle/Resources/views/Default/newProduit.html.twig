@@ -1,0 +1,39 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    {{ form_start(f) }}
+    <table>
+        <tr>
+            <td>{{ form_label(f.nomProduit) }}</td>
+            <td>{{ form_widget(f.nomProduit) }}</td>
+            <td>{{ form_errors(f.nomProduit) }}</td>
+        </tr>
+        <tr>
+            <td>{{ form_label(f.prix) }}</td>
+            <td>{{ form_widget(f.prix) }}</td>
+            <td>{{ form_errors(f.prix) }}</td>
+        </tr>
+        <tr>
+            <td>{{ form_label(f.categorie) }}</td>
+            <td>{{ form_widget(f.categorie) }}</td>
+            <td>{{ form_errors(f.categorie) }}</td>
+        </tr>
+    </table>
+    {{ form_end(f) }}
+    <table border="1" width="80%">
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Prix</th>
+            <th>Categorie</th>
+        </tr>
+        {% for p in prods  %}
+            <tr>
+                <td>{{ p.id }}</td>
+                <td>{{ p.nomProduit }}</td>
+                <td>{{ p.prix }}</td>
+                <td>{{ p.categorie.nomCategorie }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "testformuleBundle::layout.html.twig" %}
+
+{% block content %}
+
+<script>
+ $(function() {
+$(".form_pays").change(function() {
+$.ajax({
+   
+ //On lui indique le type d'envoie des informations
+                    type: 'POST',
+                    //On lui indique le chemin de la fonction
+                    url:  '{{ path('IsMektebPostBundle_ajaxrq') }}',
+
+                    //On lui donne la valeur du choix qu'on a fait, et id est la variable qui va contenir notre valeur, nous la retrouvons dans notre controller
+                    data: 'id=' + $(this).val(),
+                    success: function(response){
+                    $('#form_ville').find("option").remove();
+                     $.each(response, function(i, item) {
+                       $('#form_ville').append(new Option(item, i));
+
+                    });
+   
+                    }
+
+
+                   
+                
+            });
+});
+
+
+
+
+
+});
+
+
+  </script>
+<form action="{{ path('categorie_cat') }}" method="POST" id="contact_form" {{ form_enctype(form) }}  >
+
+        {{ form_errors(form) }}
+
+        {{ form_label(form.pays) }}
+        {{ form_widget(form.pays, { 'attr': {'class': 'form_pays'} }) }}
+        {{ form_label(form.ville) }}
+        {{ form_widget(form.ville,{ 'attr': {'class': 'form_ville'} }) }}
+        
+
+<input type="submit" value="Send" class="symfony-button-grey" />
+</form>
+<div  id="classiko">
+ff
+</div>
+
+
+<input id= "mybutton" type="button" onclick="myAjaxFunction()" value="Valider" >
+
+{% endblock %}

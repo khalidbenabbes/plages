@@ -1,0 +1,120 @@
+{% extends "::plage.html.twig" %}
+{% block body %}
+
+    <h2>Les plages d'Agadir</h2>
+    <!-- item list -->
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="">Item heading</a></div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.</p>
+{% endblock %}
+
+
+
+
+{% block javascripts %}
+<script>
+$(document).ready(function() {
+
+/* google maps -----------------------------------------------------*/
+google.maps.event.addDomListener(window, 'load', initialize);
+
+function initialize() {
+
+/* position Amsterdam */
+var latlng = new google.maps.LatLng({{ xy }});
+
+var mapOptions = {
+center: latlng,
+scrollWheel: false,
+zoom: 13
+};
+
+var marker = new google.maps.Marker({
+position: latlng,
+url: '/',
+animation: google.maps.Animation.DROP
+});
+
+var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+marker.setMap(map);
+
+};
+/* end google maps -----------------------------------------------------*/
+
+});
+</script>
+{% endblock %}

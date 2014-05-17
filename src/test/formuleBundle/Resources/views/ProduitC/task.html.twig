@@ -1,0 +1,13 @@
+
+<form action="{{ path('categorie_cat') }}" method="POST" id="contact_form" {{ form_enctype(form) }}>
+
+        {{ form_errors(form) }}
+
+        {{ form_label(form.dueDate) }}
+        {{ form_widget(form.dueDate) }}
+        {{ form_label(form.task) }}
+        {{ form_widget(form.task) }}
+        {{ form_rest(form) }}
+
+        <input type="submit" value="Send" class="symfony-button-grey" />
+</form>

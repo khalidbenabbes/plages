@@ -1,0 +1,1182 @@
+[2013-05-20 15:52:08,821][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: initializing ...
+[2013-05-20 15:52:08,830][INFO ][plugins                  ] [Power, Jack] loaded [], sites []
+[2013-05-20 15:52:13,328][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: initialized
+[2013-05-20 15:52:13,338][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: starting ...
+[2013-05-20 15:52:13,534][INFO ][transport                ] [Power, Jack] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.21:9300]}
+[2013-05-20 15:52:16,704][INFO ][cluster.service          ] [Power, Jack] new_master [Power, Jack][dMYeH_gLT3u64-L5v4ktew][inet[/192.168.1.21:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 15:52:16,761][INFO ][discovery                ] [Power, Jack] elasticsearch/dMYeH_gLT3u64-L5v4ktew
+[2013-05-20 15:52:16,840][INFO ][http                     ] [Power, Jack] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.21:9200]}
+[2013-05-20 15:52:16,841][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: started
+[2013-05-20 15:52:16,929][INFO ][gateway                  ] [Power, Jack] recovered [0] indices into cluster_state
+[2013-05-20 15:56:45,957][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: stopping ...
+[2013-05-20 15:56:45,978][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: stopped
+[2013-05-20 15:56:45,979][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: closing ...
+[2013-05-20 15:56:45,996][INFO ][node                     ] [Power, Jack] {0.90.0}[6928]: closed
+[2013-05-20 15:57:06,599][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: initializing ...
+[2013-05-20 15:57:06,608][INFO ][plugins                  ] [Jocasta] loaded [], sites []
+[2013-05-20 15:57:10,446][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: initialized
+[2013-05-20 15:57:10,446][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: starting ...
+[2013-05-20 15:57:10,647][INFO ][transport                ] [Jocasta] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.21:9300]}
+[2013-05-20 15:57:13,744][INFO ][cluster.service          ] [Jocasta] new_master [Jocasta][MOAWS_8nS_Ka_TCLjGFFAg][inet[/192.168.1.21:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 15:57:13,789][INFO ][discovery                ] [Jocasta] elasticsearch/MOAWS_8nS_Ka_TCLjGFFAg
+[2013-05-20 15:57:13,865][INFO ][http                     ] [Jocasta] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.21:9200]}
+[2013-05-20 15:57:13,865][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: started
+[2013-05-20 15:57:13,956][INFO ][gateway                  ] [Jocasta] recovered [0] indices into cluster_state
+[2013-05-20 15:58:27,599][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: stopping ...
+[2013-05-20 15:58:27,622][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: stopped
+[2013-05-20 15:58:27,623][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: closing ...
+[2013-05-20 15:58:27,635][INFO ][node                     ] [Jocasta] {0.90.0}[6116]: closed
+[2013-05-20 15:58:40,120][INFO ][node                     ] [Anelle] {0.90.0}[4284]: initializing ...
+[2013-05-20 15:58:40,129][INFO ][plugins                  ] [Anelle] loaded [], sites []
+[2013-05-20 15:58:44,238][INFO ][node                     ] [Anelle] {0.90.0}[4284]: initialized
+[2013-05-20 15:58:44,242][INFO ][node                     ] [Anelle] {0.90.0}[4284]: starting ...
+[2013-05-20 15:58:44,474][INFO ][transport                ] [Anelle] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.21:9300]}
+[2013-05-20 15:58:47,609][INFO ][cluster.service          ] [Anelle] new_master [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 15:58:47,685][INFO ][discovery                ] [Anelle] elasticsearch/JxowtT6mQ0--BwJB-gz1Aw
+[2013-05-20 15:58:47,768][INFO ][http                     ] [Anelle] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.21:9200]}
+[2013-05-20 15:58:47,769][INFO ][node                     ] [Anelle] {0.90.0}[4284]: started
+[2013-05-20 15:58:47,830][INFO ][gateway                  ] [Anelle] recovered [0] indices into cluster_state
+[2013-05-20 16:26:07,691][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x27bad028, /192.168.1.21:57926 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,698][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x99f5119f, /192.168.1.21:57922 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,707][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0xa6ad85c0, /192.168.1.21:57918 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,695][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x0e8a59d9, /192.168.1.21:57922 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,695][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x7612c3b9, /192.168.1.21:57921 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,695][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x85a40622, /192.168.1.21:57923 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,695][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x67ee760a, /192.168.1.21:57920 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,694][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x8853c007, /192.168.1.21:57921 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,694][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0xed91f778, /192.168.1.21:57924 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,763][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x0b7d86c5, /192.168.1.21:57920 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,693][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0x3f759123, /192.168.1.21:57923 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,745][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0xc1f6d88f, /192.168.1.21:57919 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:26:07,736][WARN ][transport.netty          ] [Anelle] exception caught on transport layer [[id: 0xfdbb31e5, /192.168.1.21:57925 => /192.168.1.21:9300]], closing connection
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:243)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:29:10,419][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:32:16,468][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:35:22,501][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:38:28,616][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:41:34,644][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:42:43,145][INFO ][cluster.metadata         ] [Anelle] [twitter] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-05-20 16:42:44,183][DEBUG][action.index             ] [Anelle] [twitter][2], node[JxowtT6mQ0--BwJB-gz1Aw], [P], s[STARTED]: Failed to execute [index {[twitter][tweet][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:550)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:44:40,668][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:46:15,749][DEBUG][action.index             ] [Anelle] [twitter][2], node[JxowtT6mQ0--BwJB-gz1Aw], [P], s[STARTED]: Failed to execute [index {[twitter][tweet][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:550)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 16:47:46,689][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:50:52,737][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:51:49,573][DEBUG][action.index             ] [Anelle] [twitter][2], node[JxowtT6mQ0--BwJB-gz1Aw], [P], s[STARTED]: Failed to execute [index {[twitter][tweet][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.elasticsearch.ElasticSearchParseException: Failed to derive xcontent from (offset=0, length=1): [39]
+	at org.elasticsearch.common.xcontent.XContentFactory.xContent(XContentFactory.java:166)
+	at org.elasticsearch.common.xcontent.XContentHelper.createParser(XContentHelper.java:68)
+	at org.elasticsearch.common.xcontent.XContentHelper.createParser(XContentHelper.java:46)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:464)
+	... 8 more
+[2013-05-20 16:53:58,815][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 16:57:04,856][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:00:10,901][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:03:16,954][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:06:23,297][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:09:29,358][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:12:35,369][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:15:41,379][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:18:47,431][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:21:53,450][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:24:59,542][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:28:05,666][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:31:11,752][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:34:17,789][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:37:23,820][WARN ][cluster.service          ] [Anelle] failed to reconnect to node [Anelle][JxowtT6mQ0--BwJB-gz1Aw][inet[/192.168.1.21:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Anelle][inet[/192.168.1.21:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.ConnectException: Connection timed out: no further information: /192.168.1.21:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2013-05-20 17:40:19,033][INFO ][node                     ] [Anelle] {0.90.0}[4284]: stopping ...
+[2013-05-20 17:40:37,240][INFO ][node                     ] [Airborne] {0.90.0}[4684]: initializing ...
+[2013-05-20 17:40:37,250][INFO ][plugins                  ] [Airborne] loaded [], sites []
+[2013-05-20 17:40:41,311][INFO ][node                     ] [Airborne] {0.90.0}[4684]: initialized
+[2013-05-20 17:40:41,312][INFO ][node                     ] [Airborne] {0.90.0}[4684]: starting ...
+[2013-05-20 17:40:41,580][INFO ][transport                ] [Airborne] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.9:9300]}
+[2013-05-20 17:40:44,719][INFO ][cluster.service          ] [Airborne] new_master [Airborne][eUP26KAdQWKyOdsX1vafmA][inet[/192.168.1.9:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 17:40:44,774][INFO ][discovery                ] [Airborne] elasticsearch/eUP26KAdQWKyOdsX1vafmA
+[2013-05-20 17:40:44,872][INFO ][http                     ] [Airborne] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.9:9200]}
+[2013-05-20 17:40:44,873][INFO ][node                     ] [Airborne] {0.90.0}[4684]: started
+[2013-05-20 17:40:46,118][INFO ][gateway                  ] [Airborne] recovered [1] indices into cluster_state
+[2013-05-20 17:53:38,369][INFO ][node                     ] [Airborne] {0.90.0}[4684]: stopping ...
+[2013-05-20 17:53:38,419][INFO ][node                     ] [Airborne] {0.90.0}[4684]: stopped
+[2013-05-20 17:53:38,420][INFO ][node                     ] [Airborne] {0.90.0}[4684]: closing ...
+[2013-05-20 17:53:38,436][INFO ][node                     ] [Airborne] {0.90.0}[4684]: closed
+[2013-05-20 17:54:02,489][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: initializing ...
+[2013-05-20 17:54:02,507][INFO ][plugins                  ] [du Paris, Bennet] loaded [], sites []
+[2013-05-20 17:54:07,770][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: initialized
+[2013-05-20 17:54:07,771][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: starting ...
+[2013-05-20 17:54:08,060][INFO ][transport                ] [du Paris, Bennet] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.9:9300]}
+[2013-05-20 17:54:11,295][INFO ][cluster.service          ] [du Paris, Bennet] new_master [du Paris, Bennet][NMx9MAhrTB2A6tlBG_cCcw][inet[/192.168.1.9:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 17:54:11,352][INFO ][discovery                ] [du Paris, Bennet] elasticsearch/NMx9MAhrTB2A6tlBG_cCcw
+[2013-05-20 17:54:11,472][INFO ][http                     ] [du Paris, Bennet] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.9:9200]}
+[2013-05-20 17:54:11,472][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: started
+[2013-05-20 17:54:13,128][INFO ][gateway                  ] [du Paris, Bennet] recovered [1] indices into cluster_state
+[2013-05-20 18:04:48,010][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: stopping ...
+[2013-05-20 18:04:48,106][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: stopped
+[2013-05-20 18:04:48,107][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: closing ...
+[2013-05-20 18:04:48,150][INFO ][node                     ] [du Paris, Bennet] {0.90.0}[5680]: closed
+[2013-05-20 18:21:14,373][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: initializing ...
+[2013-05-20 18:21:14,382][INFO ][plugins                  ] [Eson the Searcher] loaded [], sites []
+[2013-05-20 18:21:18,244][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: initialized
+[2013-05-20 18:21:18,245][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: starting ...
+[2013-05-20 18:21:18,414][INFO ][transport                ] [Eson the Searcher] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.9:9300]}
+[2013-05-20 18:21:21,520][INFO ][cluster.service          ] [Eson the Searcher] new_master [Eson the Searcher][_G6UTndITWuPQq_L3Y6qeg][inet[/192.168.1.9:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 18:21:21,573][INFO ][discovery                ] [Eson the Searcher] elasticsearch/_G6UTndITWuPQq_L3Y6qeg
+[2013-05-20 18:21:21,646][INFO ][http                     ] [Eson the Searcher] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.9:9200]}
+[2013-05-20 18:21:21,647][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: started
+[2013-05-20 18:21:22,845][INFO ][gateway                  ] [Eson the Searcher] recovered [1] indices into cluster_state
+[2013-05-20 18:24:50,583][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: stopping ...
+[2013-05-20 18:24:50,652][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: stopped
+[2013-05-20 18:24:50,653][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: closing ...
+[2013-05-20 18:24:50,676][INFO ][node                     ] [Eson the Searcher] {0.90.0}[4772]: closed
+[2013-05-20 18:32:41,869][INFO ][node                     ] [Pyre] {0.90.0}[7140]: initializing ...
+[2013-05-20 18:32:41,880][INFO ][plugins                  ] [Pyre] loaded [], sites []
+[2013-05-20 18:32:46,073][INFO ][node                     ] [Pyre] {0.90.0}[7140]: initialized
+[2013-05-20 18:32:46,074][INFO ][node                     ] [Pyre] {0.90.0}[7140]: starting ...
+[2013-05-20 18:32:46,293][INFO ][transport                ] [Pyre] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.9:9300]}
+[2013-05-20 18:32:49,410][INFO ][cluster.service          ] [Pyre] new_master [Pyre][_PqVuRifQxuLSWHB_nFiJQ][inet[/192.168.1.9:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 18:32:49,445][INFO ][discovery                ] [Pyre] elasticsearch/_PqVuRifQxuLSWHB_nFiJQ
+[2013-05-20 18:32:49,566][INFO ][http                     ] [Pyre] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.9:9200]}
+[2013-05-20 18:32:49,567][INFO ][node                     ] [Pyre] {0.90.0}[7140]: started
+[2013-05-20 18:32:50,697][INFO ][gateway                  ] [Pyre] recovered [1] indices into cluster_state
+[2013-05-20 18:34:44,309][INFO ][cluster.metadata         ] [Pyre] [mon_index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-05-20 18:34:44,993][DEBUG][action.index             ] [Pyre] [mon_index][0], node[_PqVuRifQxuLSWHB_nFiJQ], [P], s[STARTED]: Failed to execute [index {[mon_index][mon_type][var1], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@5b941dc9; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2275)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:788)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:674)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:475)
+	... 8 more
+[2013-05-20 18:38:32,696][DEBUG][action.index             ] [Pyre] [mon_index][0], node[_PqVuRifQxuLSWHB_nFiJQ], [P], s[STARTED]: Failed to execute [index {[mon_index][mon_type][var1], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@501b2cb9; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2275)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:788)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:674)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:475)
+	... 8 more
+[2013-05-20 18:38:49,493][DEBUG][action.index             ] [Pyre] [twitter][2], node[_PqVuRifQxuLSWHB_nFiJQ], [P], s[STARTED]: Failed to execute [index {[twitter][tweet][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:550)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2013-05-20 18:48:53,261][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: initializing ...
+[2013-05-20 18:48:53,291][INFO ][plugins                  ] [Ishihara, Shirow] loaded [], sites []
+[2013-05-20 18:49:00,003][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: initialized
+[2013-05-20 18:49:00,003][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: starting ...
+[2013-05-20 18:49:00,343][INFO ][transport                ] [Ishihara, Shirow] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/192.168.1.8:9300]}
+[2013-05-20 18:49:03,709][INFO ][cluster.service          ] [Ishihara, Shirow] new_master [Ishihara, Shirow][c8O7UnobSjqdoBGSIkzz4w][inet[/192.168.1.8:9300]], reason: zen-disco-join (elected_as_master)
+[2013-05-20 18:49:03,949][INFO ][discovery                ] [Ishihara, Shirow] elasticsearch/c8O7UnobSjqdoBGSIkzz4w
+[2013-05-20 18:49:04,181][INFO ][http                     ] [Ishihara, Shirow] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/192.168.1.8:9200]}
+[2013-05-20 18:49:04,181][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: started
+[2013-05-20 18:49:07,463][INFO ][gateway                  ] [Ishihara, Shirow] recovered [2] indices into cluster_state
+[2013-05-20 18:52:40,653][DEBUG][action.index             ] [Ishihara, Shirow] [twitter][3], node[c8O7UnobSjqdoBGSIkzz4w], [P], s[STARTED]: Failed to execute [index {[twitter][user][kimchy], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:550)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 18:53:00,475][DEBUG][action.index             ] [Ishihara, Shirow] [twitter][3], node[c8O7UnobSjqdoBGSIkzz4w], [P], s[STARTED]: Failed to execute [index {[twitter][user][kimchy], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@1667e92a; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2275)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:788)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:674)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:475)
+	... 8 more
+[2013-05-20 18:56:02,922][DEBUG][action.index             ] [Ishihara, Shirow] [twitter][3], node[c8O7UnobSjqdoBGSIkzz4w], [P], s[STARTED]: Failed to execute [index {[twitter][user][kimchy], source[{ name : Shay]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('S' (code 83)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@4f57011e; line: 1, column: 11]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2275)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:737)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:480)
+	... 8 more
+[2013-05-20 18:56:12,362][DEBUG][action.index             ] [Ishihara, Shirow] [twitter][3], node[c8O7UnobSjqdoBGSIkzz4w], [P], s[STARTED]: Failed to execute [index {[twitter][user][kimchy], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@2be44538; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2275)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:788)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:674)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:475)
+	... 8 more
+[2013-05-20 18:58:18,246][WARN ][http.netty               ] [Ishihara, Shirow] Caught exception while handling client http traffic, closing connection [id: 0x8f843a7d, /127.0.0.1:49535 => /127.0.0.1:9200]
+java.lang.IllegalArgumentException: invalid version format: -D  HTTP/1.1
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:102)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:189)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:101)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 18:58:18,246][WARN ][http.netty               ] [Ishihara, Shirow] Caught exception while handling client http traffic, closing connection [id: 0x8f843a7d, /127.0.0.1:49535 :> /127.0.0.1:9200]
+java.lang.IllegalArgumentException: empty text
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:97)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:189)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:101)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:554)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:336)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.elasticsearch.common.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:197)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.exceptionCaught(NettyHttpServerTransport.java:306)
+	at org.elasticsearch.http.netty.HttpRequestHandler.exceptionCaught(HttpRequestHandler.java:49)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 18:58:32,786][WARN ][http.netty               ] [Ishihara, Shirow] Caught exception while handling client http traffic, closing connection [id: 0xea01fae4, /127.0.0.1:49537 => /127.0.0.1:9200]
+java.lang.IllegalArgumentException: invalid version format: -D  HTTP/1.1
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:102)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:189)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:101)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 18:58:32,796][WARN ][http.netty               ] [Ishihara, Shirow] Caught exception while handling client http traffic, closing connection [id: 0xea01fae4, /127.0.0.1:49537 :> /127.0.0.1:9200]
+java.lang.IllegalArgumentException: empty text
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:97)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:189)
+	at org.elasticsearch.common.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:101)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.elasticsearch.common.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:554)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:336)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.elasticsearch.common.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:197)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.exceptionCaught(NettyHttpServerTransport.java:306)
+	at org.elasticsearch.http.netty.HttpRequestHandler.exceptionCaught(HttpRequestHandler.java:49)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[2013-05-20 18:59:06,386][INFO ][cluster.metadata         ] [Ishihara, Shirow] [kimchy] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-05-20 18:59:07,510][DEBUG][action.index             ] [Ishihara, Shirow] [kimchy][2], node[c8O7UnobSjqdoBGSIkzz4w], [P], s[STARTED]: Failed to execute [index {[kimchy][info][1], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:553)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:450)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:326)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:532)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:430)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@2d09b23b; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1378)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2275)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:788)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:674)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:475)
+	... 8 more
+[2013-05-20 19:16:04,760][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: stopping ...
+[2013-05-20 19:16:04,869][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: stopped
+[2013-05-20 19:16:04,884][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: closing ...
+[2013-05-20 19:16:04,931][INFO ][node                     ] [Ishihara, Shirow] {0.90.0}[1960]: closed
