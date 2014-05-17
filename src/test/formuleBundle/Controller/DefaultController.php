@@ -17,7 +17,7 @@ class DefaultController extends Controller
     
       public function listPlagesAction()
     {
-        return $this->render('testformuleBundle:Default:listPlages.html.twig', array('xy' => "52.3731, 4.8922"));
+        return $this->render('testformuleBundle:Default:listPlages.html.twig', array('xy' => "30.42775, -9.59811"));
           
     }
 }
